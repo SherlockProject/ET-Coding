@@ -3,6 +3,12 @@
 Created on Tue Dec 08 16:59:54 2015
 
 @author: Renato
+
+Program written in Python 2.7. This program transforms pdf files into html ones. 
+Simply run the program and choose the folder where the pdf files you want to transform are stored. 
+The program will transform all pdf files that it finds in that folder and subfolders and will ignore non-pdf files. 
+The program also deltes useless tags with no information that are created when the images from the pdf are transformed. 
+The html files are stored on the same location as the pdf files with the same name but with the .html extension.
 """
 
 import Tkinter, tkFileDialog
